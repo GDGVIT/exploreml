@@ -1,0 +1,98 @@
+body{
+	font-family: 'Montserrat',sans-serif;
+	margin:0;
+	padding: 0;
+	/*background: url(logos/Comp 1_5.gif);*/
+}
+
+h1{
+	font-size: 3rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+}
+
+h2{
+	font-size: 2.25rem;
+	margin-top: 6rem;
+	font-weight: 500;
+}
+
+.container{
+	margin-right: 75px; 
+	margin-left: 75px;
+	margin-top: 50px;
+}
+
+.btn{
+	width: 250px;
+	height: 60px;
+	background: #4285F4;
+	border-radius: 5px;
+	font-size: 22px;
+	color: white;
+	font-weight: normal;
+}
+
+.accordion-item{
+	width: 100%;
+}
+
+.accordion-link{
+	width: 100%;
+	text-decoration: none;
+	color: black;
+	border-bottom: 1px solid #4285F4;
+	font-weight: bold;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.accordion-link .fa-chevron-up {
+	display: none;
+}
+
+.answer{
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 500ms;
+}
+
+.answer p{
+	font-size: 1.125rem;
+	font-weight: 300;
+	padding-left: 2rem;
+}
+
+ol{
+	font-size: 1.125rem;
+	font-weight: 300;
+	padding-left: 4rem;
+}
+
+.accordion-item:target .answer{
+	max-height: 20rem;
+}
+
+.accordion-item:target .accordion-link .fa-chevron-up{
+	display: block;
+}
+
+.accordion-item:target .accordion-link .fa-chevron-down{
+	display: none;
+}
+
+footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+button:hover{
+	background-color: #4275F4;
+}
