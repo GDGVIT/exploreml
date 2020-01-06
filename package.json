@@ -1,0 +1,24 @@
+{
+  "name": "exploreml",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GDGVIT/exploreml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GDGVIT/exploreml/issues"
+  },
+  "homepage": "https://github.com/GDGVIT/exploreml#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
