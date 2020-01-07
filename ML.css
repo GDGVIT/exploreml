@@ -100,35 +100,12 @@ footer{
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	
-	/* position: absolute;
-	text-align: center;
-	bottom: 0px;
-	height: auto;
-	display: flex;
-	width: 100vw;
-	justify-content: center;
-	align-items: center; */
 }
 
 @media (max-width: 1500px){
 	#gif{
 		height: 400px;
 		width: 550px;
-	}
-	footer{
-		/* text-align: center;
-		margin-top: 20px;
-		margin-bottom: 20px;
-		 */
-		position: absolute;
-		text-align: center;
-		bottom: 0px;
-		height: auto;
-		display: flex;
-		width: 100vw;
-		justify-content: center;
-		align-items: center;
 	}
 }
 
