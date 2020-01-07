@@ -2,12 +2,20 @@ body{
 	font-family: 'Montserrat',sans-serif;
 	margin:0;
 	padding: 0;
-	/*background: url(logos/back.png);
+	position: relative;
+	z-index: 1;
+
+/*	background: url(logos/back.png);
 	background-repeat: no-repeat;
 	background-size: 625px 455px;
 	background-position: top right;
+	background-position:;
 	background-position: right center;*/
+
+
+	
 }
+
 
 h1{
 	font-size: 2.25rem;
@@ -23,11 +31,27 @@ h2{
 	font-weight: 500;
 }
 
+
+
 .container{
 	margin-right: 75px; 
 	margin-left: 75px;
 	margin-top: 50px;
+	
 }
+
+.content{
+	
+}
+
+
+/*.overlay{
+	width: 100%;
+	height: 100%;
+	background: rgba(255,255,255,0.5);
+	position: absolute;
+	z-index: 10;
+}*/
 
 .answer{
 	padding-left: 2rem;
@@ -70,6 +94,6 @@ footer{
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 15%;
 	margin-bottom: 20px;
 }

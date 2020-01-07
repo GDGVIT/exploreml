@@ -10,9 +10,9 @@ body{
 }
 
 .content{
-	margin-right: 75px;
-	margin-left: 75px;
-	margin-top: 50px;
+	margin-right: 60px;
+	margin-left: 50px;
+	margin-top: 20px;
 }
 
 #Head{
@@ -47,7 +47,7 @@ body{
 	border-radius: 5px;
 	opacity: 1;
 	font-weight: bold;
-	margin-top:40px;
+	margin-top:20px;
 	font-size: 22px;
 }
 
@@ -100,6 +100,20 @@ footer{
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+@media (max-width: 1500px){
+	#gif{
+		height: 400px;
+		width: 550px;
+	}
+}
+
+@media (max-width: 1300px){
+	#gif{
+		height: 350px;
+		width: 500px;
+	}
 }
 
 @media (max-width: 600px) {
