@@ -1,43 +1,13 @@
 body{
-	/*top: 0px;
-	left: 0px;
-	width: 1920px;
-	height: 1080px;
-	background: #FFFFFF 0% 0% no-repeat padding-box;*/
-	opacity: 1;
-	font-family: Montserrat;
+	font-family: 'Montserrat',sans-serif;
+	margin:0;
 	padding: 0;
 }
 
 .content{
-	margin-right: 60px;
-	margin-left: 50px;
-	margin-top: 20px;
-}
-
-#Head{
-	/*width: 856px;
-	height: 116px;*/
-	text-align: left;
-	font-weight: 600;
-	letter-spacing: 0;
-	color: #202124;
-	opacity: 1;
-	margin-bottom: 30px;
-	font-size: 48px;
-
-}
-
-.secondHead{
-	/*width: 240px;*/
-	height: 44px;
-	text-align: left;
-	font-weight: 600;
-	letter-spacing: 0;
-	color: #202124;
-	opacity: 1;
-	margin-top: 20px;
-	font-size: 36px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 10px;
 }
 
 .btn{
@@ -51,12 +21,32 @@ body{
 	font-size: 22px;
 }
 
+#Head{
+	/*text-align: left;*/
+	font-weight: 600;
+	letter-spacing: 0;
+	color: #202124;
+	opacity: 1;
+	margin-bottom: 20px;
+	font-size: 48px;
+}
+
+#image{
+	height: 455px;
+	width: 625px;
+}
+
+#forSection{
+	/*text-align: left;*/
+	font-weight: 300;
+	letter-spacing: 0;
+	color: #3C4043;
+	opacity: 1;
+	font-size: 18px;
+}
+
 #top{
-	/*top: 221px;
-	left: 140px;*/
-	/*width: 847px;
-	height: 126px;*/
-	text-align: left;
+	/*text-align: left;*/
 	font-family: Montserrat;
 	letter-spacing: 0;
 	color: #3C4043;
@@ -65,21 +55,28 @@ body{
 	margin-top: 0;
 	margin-bottom: 0;
 	font-size: 18px;
+	/*max-height: 50vh;*/
 }
 
-#forSection{
-	/*width: 654px;
-	height: 100px;*/
-	text-align: left;
-	font-weight: 300;
+.secondHead{
+	/*width: 240px;*/
+	height: 44px;
+	/*text-align: left;*/
+	font-weight: 600;
 	letter-spacing: 0;
-	color: #3C4043;
+	color: #202124;
 	opacity: 1;
-	font-size: 18px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.thirdHead{
+	font-size: 30px;
+	/* margin-top: 20px; */
 }
 
 #whenNwhere{
-	text-align: left;
+	/*text-align: left;*/
 	letter-spacing: 0;
 	color: #3C4043;
 	opacity: 1;
@@ -91,11 +88,6 @@ body{
 	font-weight: bold;
 }
 
-#gif {
-	text-align: center;
-}
-
-
 footer{
 	text-align: center;
 	margin-top: 20px;
@@ -103,23 +95,43 @@ footer{
 }
 
 @media (max-width: 1500px){
-	#gif{
+	#image{
 		height: 400px;
 		width: 550px;
 	}
 }
 
 @media (max-width: 1300px){
-	#gif{
+	#image{
 		height: 350px;
 		width: 500px;
 	}
 }
 
-@media (max-width: 600px) {
-	#gif{
-		height: 300px;
-		width: 400px;
-		text-align: center;
+@media (max-width: 900px){
+	.content{
+		margin-left: 25px;
+		margin-right: 25px;
+		margin-top: 25px;
+	}
+	#image{
+		width: 300px;
+		height: 250px;
+	}
+	#Head{
+
+		font-size: 25px;
+	}
+	#secondHead{
+		font-size: 20px;
+	}
+	#top{
+		font-size: 15px;
+	}
+	#forSection{
+		font-size: 15px;
+	}
+	#whenNwhere{
+		font-size: 15px;
 	}
 }
