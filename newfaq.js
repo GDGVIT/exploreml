@@ -3,3 +3,6 @@ $(".question").on('click',function(){
 	$('.fa-chevron-up',this).toggleClass('hideFont');
 	$('.fa-chevron-down',this).toggleClass('hideFont');
 })
+$('.faqbt').on('click',function(){
+	alert('Sorry we are not  accepting any Registrations now ! The seats are full.');
+})

@@ -11,8 +11,6 @@
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 	<title>Explore ML | DSC VIT</title>
-	<link rel="shortcut icon" type="image/ICO" href="./logos/favicon.jpeg" />
-
 	<style>
 		@media (max-width: 800px){
 			#footer{
@@ -25,13 +23,13 @@
 				margin-left:-10px;
 			}
 			#DSC{
-				padding-left:4vw;
-				/* width:33px; */
+				padding-left:20px
+				width:33px;
 				height: 17px;
-				
+				p
 			}
 			#gifImg{
-				margin-left:-50px;
+				margin-left:-50px
 			}
 		}
 		@media (min-width: 800px){
@@ -50,7 +48,7 @@
 			<div class="col-xl-7 col-12">
 				<div style="text-align: left" id="headerLogo">
 					<img id="ML" src="logos/Explore-ML-DSC_VIT.png" height="50px" width="auto" alt="Explore ML | DSC VIT">
-					<a href="https://dscvit.com" target="_blank"><img id="DSC" src="logos/dsc-vit-logo.svg" height="50px" width="auto"></a>
+					<img id="DSC" src="logos/dsc-vit-logo.svg" height="20px" width="auto">
 				</div>
 				<h1 id="Head">
 			        Explore ML
@@ -58,7 +56,7 @@
 			        Getting Started with Machine Learning
 				    </h1>
 				    <p id="top">Explore Machine Learning (ML) is a Google-sponsored program for university students to get started with Machine Learning. This program is intended for those who wish to learn ML from a practical, applied perspective that will enable them to use machine learning in their projects, and who wish to get started with the basics of TensorFlow. This program not only focuses on training in ML but also on building an ecosystem for ML enthusiasts.</p>
-				    <a href="https://forms.gle/QZnrCMPZ7XDkHLvj6"><button class="btn btn-large btn-primary">Register Now!</button></a>
+				    <a href="#"><button class="btn btn-large btn-primary regbt">Register Now!</button></a>
 				    <h2 class="secondHead">Who is it for?</h2>
 				<div id="forSection">
 			    	<p id="list">
@@ -84,7 +82,7 @@
 			    	<br>
 					<strong>Time:</strong> 9:30 A.M. To 2 P.M.
 					<br>
-					<!-- Add to --> <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MHVsbWx2dGF1YWQwZTM2NHY2aGliZWJqOTMgZG4yMGExN3BlZmc3N2hqZWk1dGlqNTBwbDhAZw&amp;tmsrc=dn20a17pefg77hjei5tij50pl8%40group.calendar.google.com"> <!-- <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"> <--><button class="btn btn-lg btn-primary" style="width: 200px; height: 50px;">Add to Calendar</button></--></a> 
+					<!-- Add to --> <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=MWowZTF0bWN1NzVpZWdpODgwbnM1ZjVnOWogZG4yMGExN3BlZmc3N2hqZWk1dGlqNTBwbDhAZw&amp;tmsrc=dn20a17pefg77hjei5tij50pl8%40group.calendar.google.com"> <!-- <img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_en.gif"> <--><button class="btn btn-lg btn-primary" style="width: 200px; height: 50px;">Add to Calendar</button></--></a> 
 			    </p>
 			    <h2 class="thirdHead">Have more Queries?</h2>
 			     <a href="faq.html"><button class="btn btn-lg btn-primary faqbt" style="margin-bottom: 20px; width: 200px; height: 50px;">Go To FAQ's</button></a>
@@ -96,5 +94,15 @@
 			<img id="DSC" src="logos/dsc-vit-logo.svg" height="20px" width="240px">
 		</footer>
 	</section>
+
+	<script
+  		src="https://code.jquery.com/jquery-3.4.1.min.js"
+ 	 	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  		crossorigin="anonymous"></script>
+  	<script>
+  		$(".regbt").on('click',function(){
+  			alert("Sorry we are not  accepting any Registrations now ! The seats are full.")
+  		})
+  	</script>
 </body>
 </html>
